@@ -1,0 +1,96 @@
+body{
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 1152px;
+height: 2041px;
+top: -1084px;
+left: -2228px;
+
+}
+ul{
+    position: relative;
+}
+ul li{
+    display: inline-block;
+    height: 43px;
+    font-family: 'Heebo', sans-serif;
+    line-height: 29.38px;
+    text-align: right;
+    position: absolute;
+    top: 27px;
+}
+.liONE{
+    width: 57px;
+    left: 858px;
+}
+.liTWO{
+    width: 106px;
+    left: 882px;
+}
+.liTHREE{
+    width: 71px;
+    left: 1021px;
+}
+section{
+    position: relative;
+}
+h1{
+    position: absolute;
+    width: 506px;
+height: 105px;
+top: 228px;
+left: 148px;
+font-family: Heebo;
+font-size: 44px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+;
+}
+p{
+    position: absolute;
+    width: 497px;
+height: 66px;
+top: 373px;
+left: 148px;
+color: #21243D;
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.pic{
+    position: absolute;
+    display: inline-block;
+    width: 243px;
+height: 243px;
+top: 210px;
+left: 760px;
+border-radius: 50%;
+
+}
+button{
+   position: absolute;
+font-family: Heebo;
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+background-color: #FF6464;
+border: none;
+width: 208px;
+height: 47px;
+top: 477px;
+left: 148px;
+border-radius: 2px;
+
+;
+}
