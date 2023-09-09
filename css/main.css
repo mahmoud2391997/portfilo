@@ -1,15 +1,20 @@
-body{
-    background-color: transparent;
+*{
     box-sizing: border-box;
-    margin: 0px;
+margin: 0;
+}
+
+.main{
+    background-color: #FFFFFF;
     width: 1152px;
-height: 2041px;
+    height: 2041px;
+margin: 0 auto;
+
 top: -1084px;
 left: -2228px;
 
 }
 ul{
-    position: relative;
+    position: absolute;
 }
 ul li{
     display: inline-block;
@@ -33,7 +38,7 @@ ul li{
     left: 1021px;
 }
 section{
-    position: relative;
+    position: absolute;
 }
 h1{
     position: absolute;
@@ -75,7 +80,7 @@ left: 760px;
 border-radius: 50%;
 
 }
-button{
+.b1{
    position: absolute;
 font-family: Heebo;
 font-size: 20px;
@@ -92,5 +97,71 @@ top: 477px;
 left: 148px;
 border-radius: 2px;
 
-;
+
+}
+.sec1{
+    position: absolute;
+    width: 1152px;
+height: 396px;
+top: 595px;
+background-color: #EDF7FA;
+
+
+}
+.header{
+    position: absolute;
+}
+.header div{
+    width: 129px;
+    height: 60px;
+    top: calc(602px - 595px);
+    left: 148px;
+    position: absolute;
+    font-family: Heebo;
+font-size: 22px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+    
+}
+.b2{
+    border: none;
+    background-color: transparent;
+    width: 208px;
+height: 20px;
+top:calc(622px - 595px);
+left: 796px;
+position: absolute;
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: right;
+color:#00A8CC;
+
+}
+.post1{
+    position: absolute;
+    width: 418px;
+height: 295px;
+background-color:#FFFFFF;
+top: calc(664px - 595px);
+left: 148px;
+border-radius: 4px;
+
+box-shadow: 0px 4px 10px 0px #BBE1FA40;
+
+}
+.post2{
+    position: absolute;
+    width: 418px;
+height: 295px;
+top: calc(664px - 595px);
+left: 586px;
+border-radius: 4px;
+background-color:#FFFFFF;
+
 }
