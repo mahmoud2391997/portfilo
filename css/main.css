@@ -55,7 +55,7 @@ text-align: left;
 color: #21243D;
 ;
 }
-p{
+.p1{
     position: absolute;
     width: 497px;
 height: 66px;
@@ -163,5 +163,135 @@ top: calc(664px - 595px);
 left: 586px;
 border-radius: 4px;
 background-color:#FFFFFF;
+
+}
+.title1{
+    position: absolute;
+    width: 374px;
+height: 85px;
+left:calc(171px - 148px) ;
+font-family: Heebo;
+font-size: 26px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+}
+.date1{
+    width: 374px;
+height: 34px;
+top:calc(790px - 664px);
+left: calc(171px - 148px);
+position: absolute;
+font-family: Heebo;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+}
+.s1{
+    position: absolute;
+    height: 21px;
+    left: calc(301px - 148px - 171px + 148px);
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #000000;
+    }
+.date1 div{
+    width: 239px;
+height: 34px;
+left:calc(327px - 171px);
+position: absolute;
+font-family: Heebo;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+display: inline-block;
+
+
+}
+.description1{
+    width: 368px;
+height: 117px;
+top: calc(835px - 664px);
+    left: calc(171px - 148px);
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+color: #21243D;
+
+
+}
+.title2{
+    width: 374px;
+height: 85px;
+left: calc(609px - 586px);
+position: absolute;
+font-family: Heebo;
+font-size: 26px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+}
+.date2{
+    width: 374px;
+height: 34px;
+top:calc(790px - 664px);
+left: calc(609px - 586px);
+position: absolute;
+font-family: Heebo;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+}
+.date2 div{
+    display: inline-block;
+    width: 239px;
+height: 34px;
+left: calc(765px - 586px);
+font-family: Heebo;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+}
+.s2{
+    height: 21px;
+    left: calc(740px - 586px);
+
+border: 1px solid #000000;
+background: #000000;
+position: absolute;
+
+}
+.description2{
+    width: 368px;
+height: 117px;
+position: absolute;
+top: calc(835px - 664px);
+left:  calc(609px - 586px);
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
 
 }
