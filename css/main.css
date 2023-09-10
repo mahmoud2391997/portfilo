@@ -527,28 +527,48 @@ footer{
     width: 1152px;
 height: 182px;
 top: 1859px;
-position: absolute;
+position: relative;
 
 
 }
 .fa-facebook{
-    width: 30px;
-height: 30px;
-top: 51px;
-left: 459px;
+    
+
 position: absolute;
-background-color: #21243D;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 - 102px);
+top: calc(50% - 30px/2 - 25px);
+
+/* Dark */
+background: #21243D;
+border-radius: 5px;
+position: absolute;
 color: white;
 text-align:center;
 
 }
+.fa-instagram::before{
+    color: #21243D;
+    width: 30px;
+    height: 30px;
+ top: calc(-10%);
+ font-size: 37px;
+ display: block;
+ position: absolute;
+}
 .fa-instagram{
     width: 30px;
 height: 30px;
-top: 51px;
-left: 524px;
+
+left: 45.49%;
+right: 51.91%;
+top: 28.02%;
+bottom: 55.49%;
+background: #21243D;
+
 position: absolute;
-background-color: #21243D;
+background-color: white;
 color: white;
 text-align:center;
 }
@@ -558,22 +578,51 @@ height: 30px;
 top: 51px;
 left: 589px;
 position: absolute;
-background-color: #21243D;
-color: white;
+color: #21243D;
 text-align:center;
+}
+.fa-twitter:before {
+    color: #21243D;
+    width: 30px;
+    height: 30px;
+ top: calc(-10%);
+ font-size: 37px;
+ display: block;
+ position: absolute;
 }
 .fa-linkedin{
     width: 30px;
 height: 30px;
 top: 51px;
 left: 661px;
-position: absolute;
+position: relative;
 background-color: #21243D;
 color: white;
 text-align:center;
 }
+.fa-linkedin::before{
+
+position: absolute;
+
+
+left: 20%;
+font-size: 20px;
+top: 25%;
+
+}
+
+/* fb */
+
+.fa-facebook::before{
+    position: absolute;
+    left: calc(28%);
+    top: calc(12%);
+    font-size: 26px;
+
+}
+
 .copy{
-    width: 222px;
+    width: 225px;
 height: 21px;
 top: 107px;
 left: 464px;
