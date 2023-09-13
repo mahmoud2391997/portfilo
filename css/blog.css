@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main{
+    width: 100%;
+height: 1261px;
+background-color: #FFFFFF;
+margin: 0 auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+align-items: end;
+}
+ul li{
+padding: 25.75px;
+height: 43px;
+font-family: 'Heebo', sans-serif;
+line-height: 29.38px;
+text-align: right;
+}
+.button{
+border: none;
+background-color: #FFFFFF;
+height: 43px;
+font-family: 'Heebo', sans-serif;
+line-height: 29.38px;
+     text-align: right;
+     cursor: pointer;
+ }
+.blog{
+   color:#FF6464;
+   ; 
+}
+header{
+    width:calc(100% * 156 / 1152);
+height: 54px;
+top: 160px;
+left:calc(100% * 235 / 1152) ;
+font-family: Heebo;
+font-size: 44px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+color: #21243D;
+
+}
+.sec1{
+    position: absolute;
+    top:269px;
+    left:calc(100% * 235 / 1152) ;
+    width: 100%;
+
+}
+.title{
+    font-family: Heebo;
+font-size: 30px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: calc(100% * 682 / 1152) ;
+}
+.date{
+    width: calc(100% * 374 / 1152);
+height: 25px;
+font-family: Heebo;
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+top: calc(318px - 269px);
+left: 0;
+position: absolute;
+}
+.s1{
+    position: absolute;
+    height: 21px;
+left:calc(253px - ((253px - 111.19px) / 2));
+top:calc(322px - 318px);
+
+background: #000000;
+border: 1px solid #000000
+
+}
+.date div{
+position: absolute;
+    width:374px;
+height: 34px;
+top: 0;
+left:235px;
+color: #8695A4;
+
+
+}
+.description{
+    white-space: initial;
+    overflow: hidden;
+    width:calc(100% * 682 / 1152);
+height: 43px;
+top: calc(358px - 269px);
+left: 0;
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+}
+hr{
+    width: 681px;
+top:calc(430px - 235px);
+position: absolute;
+left:0 ;
+color: #E0E0E0;
+border: 1px solid #E0E0E0
+
+}
+.sec2{
+    position: absolute;
+top: 462px;
+left:calc(100% * 235 / 1152) ;
+width: 100%;
+
+}
+.sec3{
+top: 655px;
+position: absolute;
+left:calc(100% * 235 / 1152) ;
+width: 100%;
+
+
+}
+.sec4{
+top: 848px;
+position: absolute;
+left:calc(100% * 235 / 1152) ;
+
+width: 100%;
+
+}
+footer{
+    width: 100%;
+height: 182px;
+top: 1079px;
+position: absolute;
+}
+.fa-facebook{
+    
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: calc(100% * 459 / 1152);
+    top: calc(50% - 30px/2 - 25px);
+    
+    /* Dark */
+    background: #21243D;
+    border-radius: 5px;
+    position: absolute;
+    color: white;
+    text-align:center;
+    
+    }
+    .fa-instagram::before{
+        color: #21243D;
+        width: 30px;
+        height: 30px;
+     top: calc(-10%);
+     font-size: 37px;
+     display: block;
+     position: absolute;
+    }
+    .fa-instagram{
+        width: 30px;
+    height: 30px;
+    
+    left: 45.49%;
+    right: 51.91%;
+    top: 28.02%;
+    bottom: 55.49%;
+    background: #21243D;
+    
+    position: absolute;
+    background-color: white;
+    color: white;
+    text-align:center;
+    }
+    .fa-twitter{
+        width: 30px;
+    height: 30px;
+    top: 51px;
+    left:calc(100% * 589 / 1152) ;
+    position: absolute;
+    color: #21243D;
+    text-align:center;
+    }
+    .fa-twitter:before {
+        color: #21243D;
+        width: 30px;
+        height: 30px;
+     top: calc(-10%);
+     font-size: 37px;
+     display: block;
+     position: absolute;
+    }
+    .fa-linkedin{
+        width: 30px;
+    height: 30px;
+    top: 51px;
+    left:calc(100% * 661 / 1152) ;
+    position: relative;
+    background-color: #21243D;
+    color: white;
+    text-align:center;
+    }
+    .fa-linkedin::before{
+    
+    position: absolute;
+    
+    
+    left: 20%;
+    font-size: 20px;
+    top: 25%;
+    
+    }
+    
+    /* fb */
+    
+    .fa-facebook::before{
+        position: absolute;
+        left: calc(28%);
+        top: calc(12%);
+        font-size: 26px;
+    
+    }
+    
+    .copy{
+        width:calc(100% * 225 / 1152);
+    height: 21px;
+    top: 107px;
+    
+    left:calc(100% * 464 / 1152);
+    position: absolute;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #21243D;
+    
+    }

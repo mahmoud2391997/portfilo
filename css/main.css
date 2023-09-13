@@ -5,11 +5,10 @@ margin: 0;
 
 .main{
     background-color: #FFFFFF;
+    margin: 0 auto;
     width: 100%;
-margin: 0 auto;
 height: 2041px;
-top: -1084px;
-left: -2228px;
+
 
 }
 header{
@@ -58,7 +57,15 @@ ul li{
    
 
 }
-
+.button{
+    border: none;
+    background-color: #FFFFFF;
+    height: 43px;
+    font-family: 'Heebo', sans-serif;
+    line-height: 29.38px;
+    text-align: right;
+    cursor: pointer;
+}
 section{
     position: absolute;
     width: 100%;
@@ -191,6 +198,7 @@ text-align: right;
 color:#00A8CC;
 position: absolute;
 width: 208px;
+cursor: pointer;
 }
 .posts{
     width: 100%;
