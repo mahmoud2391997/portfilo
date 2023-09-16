@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+margin: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width: 100%;
+height: 2041px;
+
+
+}
+.menu-icon{
+    display: none;
+    width: 100%;
+    height: 50px;
+}
+.menu{
+    cursor: pointer;
+    position: absolute;
+width: 30px;
+height: 18px;
+left:calc(100% * 327 / 375) ;
+top: 20px;
+}
+.bar1, .bar2, .bar3 {
+
+border: 1.6px solid #21243D;
+
+position: absolute;
+width: 30px;
+height: 0px;
+}
+.bar1{
+    top: 0px;
+}
+.bar2{
+    top: 9px;
+}
+  .bar3{
+    top: 18px;
+}
+ul{
+   list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+ul li{
+    padding: 25.75px;
+    height: 43px;
+    font-family: 'Heebo', sans-serif;
+    line-height: 29.38px;
+    text-align: right;
+   
+
+}
+.button{
+    border: none;
+    background-color: #FFFFFF;
+    height: 43px;
+    font-family: 'Heebo', sans-serif;
+    line-height: 29.38px;
+    text-align: right;
+    cursor: pointer;
+}
+.head{
+    width:calc(100% * 156 / 1152);
+height: 69px;
+top: 160px;
+left:calc(100% * 235 / 1152) ;
+font-family: Heebo;
+font-size: 44px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+color: #21243D;
+
+}
+.works{
+    color: #FF6464;
+}
+.last-sec{
+    position: absolute;
+    top: 243px;
+    left:calc(100% * 235 / 1152) ;
+    width: 100%;
+}
+.work1{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+.pic1,.pic2,.pic3{
+    width: 246px;
+height: 180px;
+top: 11px;
+border-radius: 6px;
+position: absolute;
+
+}
+.titlee1,.titlee2,.titlee3{
+    width:calc(100% * 512 / 1152);
+    height: 44px;
+    left:calc(499px - 235px);
+    font-family: Heebo;
+font-size: 30px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+position: absolute;    
+top: 0;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.datee1,.datee2,.datee3{
+    position: absolute;
+    width: 300px;
+    left:calc(499px - 235px);
+    display: flex;
+    justify-content: start;
+    top: calc(307px - 243px);
+
+}
+.year{
+    width:62px;
+height: 25px;
+border-radius: 16px;
+position: absolute;
+background-color:#142850;
+}
+.text{
+    width: 42px;
+
+height: 60px;
+left:calc(100% * 190 / 1152) ;
+position: absolute;
+font-family: Heebo;
+font-size: 18px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0px;
+color:#FFFFFF;
+text-align: center;
+}
+.one,.two,.three{
+    top:-17px;
+
+}
+
+.category1,.category2,.category3{
+    width: calc(100% * 374 / 1152);
+height: 34px;
+left: calc(100% * 498 / 1152);
+
+position: absolute;
+font-family: Heebo;
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+color:#8695A4;
+}
+
+.content{
+    position: absolute;
+    left:calc(499px - 235px);
+
+    height: 93px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #21243D;
+    position: absolute;
+    width: calc(100% * 418 / 1152);
+overflow: hidden;
+white-space: initial;
+text-overflow: ellipsis;
+top: calc(351px - 243px);
+
+
+}
+
+.hr1,.hr2,.hr3{
+    width: 858.0000000000032px;
+top: calc(481px - 243px);
+left: calc(100% 235 / 1152);
+transform: rotateY(-0deg);
+position: absolute;
+background-color: #E0E0E0;
+border: 1px solid #E0E0E0;
+}
+.work2{
+    top: calc(522px - 243px);
+    position: absolute;
+    width: 100%;
+
+}
+.work3{
+    top: calc(787px - 243px);
+    position: absolute;
+    width: 100%;
+
+}
+.work4{
+    top: calc(1054px - 243px);
+    position: absolute;
+    width: 100%;
+
+}
+footer{
+    width: 100%;
+height: 182px;
+top: 1352px;
+position: absolute;
+}
+.fa-facebook{
+    
+
+    width: 30px;
+    height: 30px;
+    left: calc(100% * 459 / 1152);
+    top: calc(50% - 30px/2 - 25px);
+    
+    /* Dark */
+    background: #21243D;
+    border-radius: 5px;
+    position: absolute;
+    color: white;
+    text-align:center;
+    
+    }
+    .fa-instagram::before{
+        color: #21243D;
+        width: 30px;
+        height: 30px;
+     top: calc(-10%);
+     font-size: 37px;
+     display: block;
+     position: absolute;
+    }
+.fa-instagram{
+        width: 30px;
+    height: 30px;
+    
+    left: 45.49%;
+    right: 51.91%;
+    top: 28.02%;
+    bottom: 55.49%;
+    background: #21243D;
+    
+    position: absolute;
+    background-color: white;
+    color: white;
+    text-align:center;
+    }
+.fa-twitter{
+        width: 30px;
+    height: 30px;
+    top: 51px;
+    left:calc(100% * 589 / 1152) ;
+    position: absolute;
+    color: #21243D;
+    text-align:center;
+    }
+.fa-twitter:before {
+        color: #21243D;
+        width: 30px;
+        height: 30px;
+     top: calc(-10%);
+     font-size: 37px;
+     display: block;
+     position: absolute;
+    }
+.fa-linkedin{
+        width: 30px;
+    height: 30px;
+    top: 51px;
+    left:calc(100% * 661 / 1152) ;
+    position: relative;
+    background-color: #21243D;
+    color: white;
+    text-align:center;
+    }
+    .fa-linkedin::before{
+    
+    position: absolute;
+    
+    
+    left: 20%;
+    font-size: 20px;
+    top: 25%;
+    
+    }
+    
+    /* fb */
+    
+    .fa-facebook::before{
+        position: absolute;
+        left: calc(28%);
+        top: calc(12%);
+        font-size: 26px;
+    
+    }
+    
+    .copy{
+        width:calc(100% * 225 / 1152);
+    height: 21px;
+    top: 107px;
+    
+    left:calc(100% * 464 / 1152);
+    position: absolute;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #21243D;
+    
+    }
+    .header{
+        display: none;
+        width: 100%;
+        height: 50px;
+    }
+    .menu{
+        cursor: pointer;
+        position: absolute;
+    width: 30px;
+    height: 18px;
+    left:calc(100% * 327 / 375) ;
+    top: 20px;
+    }
+    .bar1, .bar2, .bar3 {
+    
+    border: 1.6px solid #21243D;
+    
+    position: absolute;
+    width: 30px;
+    height: 0px;
+    }
+    .bar1{
+        top: 0px;
+    }
+    .bar2{
+        top: 9px;
+    }
+    .bar3{
+        top: 18px;
+    }
+@media (max-width: 767px) {
+    .menu-icon{
+        display: inline-block;
+    } 
+    nav{
+        display: none;
+    }
+}

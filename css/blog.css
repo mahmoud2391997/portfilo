@@ -2,12 +2,13 @@
     box-sizing: border-box;
     margin: 0;
 }
-.main{
+body{
     width: 100%;
 height: 1261px;
 background-color: #FFFFFF;
 margin: 0 auto;
 }
+
 ul{
     list-style: none;
     display: flex;
@@ -34,7 +35,7 @@ line-height: 29.38px;
    color:#FF6464;
    ; 
 }
-header{
+.head{
     width:calc(100% * 156 / 1152);
 height: 54px;
 top: 160px;
@@ -92,7 +93,7 @@ background: #000000;
 border: 1px solid #000000
 
 }
-.date div{
+.category{
 position: absolute;
     width:374px;
 height: 34px;
@@ -260,4 +261,130 @@ position: absolute;
     text-align: center;
     color: #21243D;
     
+    }
+    .header{
+        display: none;
+        width: 100%;
+        height: 50px;
+    }
+    .menu{
+        cursor: pointer;
+        position: absolute;
+    width: 30px;
+    height: 18px;
+    left:calc(100% * 327 / 375) ;
+    top: 20px;
+    }
+    .bar1, .bar2, .bar3 {
+    
+    border: 1.6px solid #21243D;
+    
+    position: absolute;
+    width: 30px;
+    height: 0px;
+    }
+    .bar1{
+        top: 0px;
+    }
+    .bar2{
+        top: 9px;
+    }
+    .bar3{
+        top: 18px;
+    }
+    @media (max-width: 767px){
+        .header{
+            display: inline-block;
+        } 
+        nav{
+            display: none;
+        }
+        .head{
+            width:calc(100% * 62 / 375) ;
+height: 60px;
+top: 74px;
+left: calc(100% * 18 / 375) ;
+font-family: Heebo;
+font-size: 30px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+
+        }
+        .sec1,.sec2,.sec3,.sec4{
+            width:calc(100% * 339/ 375);
+height: 204px;
+left:calc(100% * 18/ 375); 
+
+        }
+        .sec1{
+        top: 152px; 
+        }
+        .sec2{
+            top: 374px; 
+
+        }
+        .sec3{
+            top: 596px; 
+
+        }
+        .sec4{
+            top: 818px; 
+
+        }
+        .title{
+            width: 100%;
+height: 204px;
+top: 0;
+left: 0;
+
+        }
+        .date{
+            width: 100%;
+        }
+        .category{
+            width: calc(100% * 146/ 375);
+            left: calc(100% * 118 /375);
+        }
+        .s1{
+            left: calc(100% * 103 / 375);
+            height: 13px;
+background: #000000;
+border: 1px solid #000000;
+        }
+        .datee{
+            width:calc(100% * 89 / 375) ;
+height: 24px;
+position: absolute;
+left: 0;
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #21243D;
+
+        }
+        .description{
+            width: calc(100% * 339 / 375) ;
+height: 96px;
+top: 100px;;
+
+        }
+        .fa-facebook{
+            left:calc(100% * 71/ 375) ;
+          }
+          .fa-instagram{
+              left:calc(100% * 136/ 375) ;
+          }
+          .fa-linkedin{
+              left:calc(100% * 273/ 375) ;
+      
+          }
+          .fa-twitter{
+              left:calc(100% * 201/ 375) ;
+          }
     }
