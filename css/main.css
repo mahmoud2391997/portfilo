@@ -755,7 +755,20 @@ color: #21243D;
 
 }
 @media (max-width: 767px) {
-
+    .fa-facebook,.fa-instagram,.fa-linkedin,.fa-twitter,.fa-facebook::before,.fa-instagram::before,.fa-linkedin::before,.fa-twitter:before{
+        position: static
+            }
+            .fa-linkedin{
+                margin-left: 5px;
+            }
+            .contain{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                position: relative;
+                top: 63px;
+            }
     ul{
         display: none;
     }
@@ -941,19 +954,7 @@ text-overflow: ellipsis;
        left:calc(100% * 18 /375);
  
     }
-    .fa-facebook{
-      left:calc(100% * 71/ 375) ;
-    }
-    .fa-instagram{
-        left:calc(100% * 136/ 375) ;
-    }
-    .fa-linkedin{
-        left:calc(100% * 273/ 375) ;
-
-    }
-    .fa-twitter{
-        left:calc(100% * 201/ 375) ;
-    }
+    
     .main{
         height: 2155px;
     }

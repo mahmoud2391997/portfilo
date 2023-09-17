@@ -19,8 +19,8 @@ height: 2041px;
 .menu{
     cursor: pointer;
     position: absolute;
-width: 30px;
-height: 18px;
+    width: calc(100% * 30 /375);
+    height: 18px;
 left:calc(100% * 327 / 375) ;
 top: 20px;
 }
@@ -348,8 +348,7 @@ position: absolute;
     border: 1.6px solid #21243D;
     
     position: absolute;
-    width: 30px;
-    height: 0px;
+width: 100%;    height: 0px;
     }
     .bar1{
         top: 0px;
@@ -361,10 +360,128 @@ position: absolute;
         top: 18px;
     }
 @media (max-width: 767px) {
+    .work3,.work4{
+        display: none;
+    }
+    body{
+        height: 1261px;
+    }
     .menu-icon{
         display: inline-block;
     } 
     nav{
         display: none;
     }
+    .head{
+        width: 70px;
+height: 60px;
+top: 74px;
+left:calc(100% * 18 /1152);
+font-family: Heebo;
+font-size: 30px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+
+    }
+    .last-sec{
+    width: 100%;
+top: 147px;
+left: calc(100% * 18 /1152);
+display: flex;
+align-items: center;
+height: 910px;
+flex-direction: column;
+    }
+    .work1{
+        width:calc(100% * 344 /375);
+        position: relative;
+        left:calc(100% * 18/375) ;
+height:455px;
+        max-width: 344px;
+
+    }
+    .pic1,.pic2{
+        
+
+        width: calc(100% * 339 /375);
+        max-width: 339px;
+height: 230px;
+border-radius: 6px;
+
+
+    }
+    .titlee1,.titlee2{
+
+        width:calc(100% * 244 / 375) ;
+height: 30px;
+top: 247px;
+font-family: Heebo;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+left: 0;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+    }
+    .datee1,.datee2{
+        top: 293px;
+        left: 0;
+        width:118% ;
+        height: 78px;
+
+    }
+    .fa-facebook,.fa-instagram,.fa-linkedin,.fa-twitter,.fa-facebook::before,.fa-instagram::before,.fa-linkedin::before,.fa-twitter:before{
+position: static
+    }
+    .fa-linkedin{
+        margin-left: 5px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .content{
+        width:calc(100% * 344 /375);
+        height: 96px;
+top: 342px;
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+left: 0;
+white-space: initial;
+overflow: hidden;
+text-overflow: ellipsis;
+
+    }
+    .hr1,.hr2{
+        top: 455px;
+        left: 0;
+        width: 339px;
+    }
+.work2{
+    position: relative;
+    height:455px;
+    width:calc(100% * 344 /375);
+    top: 0;
+    left:calc(100% * 18/375) ;
+    max-width: 344px;
+}
+.category1,.category2{
+    width: calc(100% * 103 / 375);
+    
+    white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
 }
